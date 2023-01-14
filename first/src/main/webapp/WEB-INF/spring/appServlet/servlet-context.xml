@@ -23,8 +23,8 @@
 	
 	<!--객체를 자동으로 만들 시본 패키지 지정 :기본 패키지 아래의 특정하게 정의해 놓은 클래스가 자동 생성된다.-->
 	<!--"com.web.main"을 "com.web"로 바꿈-->
-	<context:component-scan base-package="com.web" />
-	
+	<context:component-scan base-package="com.web" >
+	</context:component-scan>
 	
 	
 </beans:beans>
